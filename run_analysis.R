@@ -10,7 +10,9 @@ library(dplyr)
 
 #### 1.1 Reads the trainers data set into R's objecet 'trainersData'
 
-
+trainersData <- read.table(
+     "D:/___CourSR/GandClData/wk4/UCI HAR Dataset/train/subject_train.txt", 
+     header = FALSE)
 
 #### 1.1.1  Labels the column as "subject",
 #              adds prefix "person" to var's value
