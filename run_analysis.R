@@ -15,12 +15,12 @@ trainersData <- read.table(
      header = FALSE)
 
 #### 1.1.1  Labels the column as "subject",
-#              adds prefix "person" to var's value
+#              adds prefix "trainer" to var's value
 
 names(trainersData) <- c("subject")
 
 trainersData <- mutate(trainersData, 
-                       subject = paste("person", subject, sep = ""))
+                       subject = paste("trainer", subject, sep = ""))
 
 #### 1.1.2 Reads the testers data set into R's objet 'testersDtata' 
 
@@ -29,13 +29,13 @@ testersData <- read.table(
           header = FALSE)
 
 #### 1.1.2.1  Labels the var column as "subject",
-#              adds prefix "person" to var's value
+#              adds prefix "tester" to var's value
 
 names(testersData) <- c("subject")
 
 
 testersData <- mutate(testersData, subject = 
-                           paste("person", subject, sep = "")) 
+                           paste("tester", subject, sep = "")) 
 
 #### 1.2 Reads the trainers activities data into R's object
 #                    'trainersActivitiesData'
