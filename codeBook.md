@@ -17,6 +17,6 @@ The JHSPH Gett&amp;Clean Course Ass/Prjct - Jan. 2016
 
  subjects are: 'trainer', 'tester'
  
- Mean and Standard deviation vars, appear as: 'meanx', 'stdevx', 'meany', 'stdevy', 'meanz', 'stdevz'
+ Mean and Standard deviation vars, appear as: '[...]-mean', '[....]-std'
  
  
